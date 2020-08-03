@@ -1,0 +1,40 @@
+body{
+  border-radius: 0.5em;
+  padding: 1em;
+  font-family: "Arial, Helvetica, sans-serif";
+
+}
+
+p {
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+table{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+}
+th{
+    padding: 0.5em;
+    width: 5em;
+    background-color: #add8e6;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #c8a2c8;
+}
+
+td{
+    text-align: center;
+}
+
+h3{
+    color: white;
+}
+h3:hover{
+    background-color: black;
+}
